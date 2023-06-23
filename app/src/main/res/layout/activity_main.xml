@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hgm="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.hgm.slidemenu.SlideMenu
+        android:id="@+id/slide_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        hgm:function="delete|read">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#334499"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="群通知"
+            android:textSize="20sp" />
+
+    </com.hgm.slidemenu.SlideMenu>
+
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        hgm:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--        android:id="@+id/recyclerView"-->
+<!--        tools:listitem="@layout/item_info_layout"-->
+<!--        tools:itemCount="5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+</LinearLayout>
